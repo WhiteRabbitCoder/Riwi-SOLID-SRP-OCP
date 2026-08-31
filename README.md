@@ -62,8 +62,8 @@ Abre [la presentación reestructurada](docs/presentacion_SOLID_SRP_OCP_reestruct
 Clona el repositorio y entra en la carpeta:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd riwi-solid-srp-ocp
+git clone https://github.com/WhiteRabbitCoder/Riwi-SOLID-SRP-OCP.git
+cd Riwi-SOLID-SRP-OCP
 ```
 
 Verifica que el proyecto compile:
