@@ -3,7 +3,7 @@
 Archivo inicial:
 
 ```text
-src/main/java/com/riwi/solid/challenge/OrderService.java
+src/com/riwi/solid/challenge/OrderService.java
 ```
 
 ## Contexto

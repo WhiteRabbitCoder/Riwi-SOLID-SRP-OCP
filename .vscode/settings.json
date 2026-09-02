@@ -1,6 +1,6 @@
 {
   "java.project.sourcePaths": [
-    "src/main/java"
+    "src"
   ],
   "java.project.outputPath": "out"
 }

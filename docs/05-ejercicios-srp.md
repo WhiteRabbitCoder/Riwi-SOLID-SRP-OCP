@@ -3,7 +3,7 @@
 Los ejercicios están en:
 
 ```text
-src/main/java/com/riwi/solid/exercises/srp/
+src/com/riwi/solid/exercises/srp/
 ```
 
 No existe una solución incluida en el repositorio.

@@ -26,17 +26,15 @@ El repositorio está pensado para trabajarse por etapas: primero fundamentos de 
 ### Desde VS Code
 
 1. Abre esta carpeta en VS Code.
-2. Abre [Main.java](src/main/java/com/riwi/solid/Main.java).
+2. Abre [Main.java](src/com/riwi/solid/Main.java).
 3. Pulsa **Run** (▶) sobre el método `main`, o elige **Ejecutar Riwi - SOLID Principles** en la vista *Run and Debug* y presiona `F5`.
-
-VS Code compila el proyecto antes de ejecutarlo y usa `out/` como classpath; no requiere Maven.
 
 ### Desde la terminal
 
 Compilar todo el proyecto con Java 17:
 
 ```powershell
-$sourceFiles = Get-ChildItem src/main/java -Recurse -Filter *.java | ForEach-Object FullName
+$sourceFiles = Get-ChildItem src -Recurse -Filter *.java | ForEach-Object FullName
 javac --release 17 -encoding UTF-8 -d out $sourceFiles
 ```
 
@@ -65,7 +63,7 @@ Antes de modificar código, responde siempre:
 ```text
 Riwi - SOLID Principles/
 ├── docs/
-├── src/main/java/com/riwi/solid/
+├── src/com/riwi/solid/
 │   ├── Main.java
 │   ├── fundamentals/
 │   ├── exercises/

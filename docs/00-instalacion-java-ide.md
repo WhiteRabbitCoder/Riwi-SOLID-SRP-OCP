@@ -36,7 +36,7 @@ code --install-extension vscjava.vscode-java-pack
 code .
 ```
 
-En VS Code abre `src/main/java/com/riwi/solid/Main.java`. En la vista **Run and Debug**, selecciona **Ejecutar Riwi - SOLID Principles** y presiona `F5`.
+En VS Code abre `src/com/riwi/solid/Main.java`. En la vista **Run and Debug**, selecciona **Ejecutar Riwi - SOLID Principles** y presiona `F5`.
 
 ### Opción B — IntelliJ IDEA Community Edition
 
@@ -71,7 +71,7 @@ code --install-extension vscjava.vscode-java-pack
 code .
 ```
 
-Abre `src/main/java/com/riwi/solid/Main.java` y ejecuta la configuración **Ejecutar Riwi - SOLID Principles** con `F5`.
+Abre `src/com/riwi/solid/Main.java` y ejecuta la configuración **Ejecutar Riwi - SOLID Principles** con `F5`.
 
 ### Opción B — IntelliJ IDEA Community Edition
 
@@ -94,7 +94,7 @@ Estas instrucciones sirven en cualquier IDE y comprueban que el JDK quedó bien 
 ### Windows PowerShell
 
 ```powershell
-$sourceFiles = Get-ChildItem src/main/java -Recurse -Filter *.java | ForEach-Object FullName
+$sourceFiles = Get-ChildItem src -Recurse -Filter *.java | ForEach-Object FullName
 javac --release 17 -encoding UTF-8 -d out $sourceFiles
 java -cp out com.riwi.solid.Main
 ```
@@ -102,7 +102,7 @@ java -cp out com.riwi.solid.Main
 ### Linux
 
 ```bash
-find src/main/java -type f -name '*.java' -print0 | xargs -0 javac --release 17 -encoding UTF-8 -d out
+find src -type f -name '*.java' -print0 | xargs -0 javac --release 17 -encoding UTF-8 -d out
 java -cp out com.riwi.solid.Main
 ```
 

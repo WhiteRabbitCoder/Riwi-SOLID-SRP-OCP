@@ -71,4 +71,4 @@ Una interfaz es útil cuando representa un contrato real o un punto de variació
 
 ## Código base
 
-Revisa `src/main/java/com/riwi/solid/fundamentals` y ejecuta `FundamentalsDemo` desde tu IDE.
+Revisa `src/com/riwi/solid/fundamentals` y ejecuta `FundamentalsDemo` desde tu IDE.

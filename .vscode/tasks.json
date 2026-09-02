@@ -8,7 +8,7 @@
       "args": [
         "-NoProfile",
         "-Command",
-        "$sourceFiles = Get-ChildItem -Path '${workspaceFolder}\\src\\main\\java' -Recurse -Filter '*.java' | ForEach-Object { $_.FullName }; javac --release 17 -encoding UTF-8 -d '${workspaceFolder}\\out' $sourceFiles"
+        "$sourceFiles = Get-ChildItem -Path '${workspaceFolder}\\src' -Recurse -Filter '*.java' | ForEach-Object { $_.FullName }; javac --release 17 -encoding UTF-8 -d '${workspaceFolder}\\out' $sourceFiles"
       ],
       "problemMatcher": "$javac",
       "group": {
