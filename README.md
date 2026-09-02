@@ -19,7 +19,6 @@ El repositorio está pensado para trabajarse por etapas: primero fundamentos de 
 ## Requisitos
 
 - Java 17 o superior.
-- VS Code con la extensión **Extension Pack for Java** para ejecutar con el botón Play.
 - Conocimientos básicos de Java y POO.
 
 ## Ejecutar los ejemplos
