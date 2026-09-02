@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Ejecutar Riwi - SOLID Principles",
+      "request": "launch",
+      "mainClass": "com.riwi.solid.Main",
+      "sourcePaths": [
+        "${workspaceFolder}\\src\\main\\java"
+      ],
+      "classPaths": [
+        "${workspaceFolder}\\out"
+      ],
+      "modulePaths": [],
+      "preLaunchTask": "Compilar proyecto Java",
+      "console": "integratedTerminal",
+      "encoding": "UTF-8"
+    }
+  ]
+}

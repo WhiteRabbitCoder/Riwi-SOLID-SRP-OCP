@@ -1,5 +1,10 @@
+# Java build outputs
+out/
 target/
 .idea/
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
 *.iml
 .DS_Store

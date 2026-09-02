@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar proyecto Java",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "$sourceFiles = Get-ChildItem -Path '${workspaceFolder}\\src\\main\\java' -Recurse -Filter '*.java' | ForEach-Object { $_.FullName }; javac --release 17 -encoding UTF-8 -d '${workspaceFolder}\\out' $sourceFiles"
+      ],
+      "problemMatcher": "$javac",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
