@@ -16,15 +16,6 @@ El repositorio está pensado para trabajarse por etapas: primero fundamentos de 
 - Cómo detectar problemas de diseño antes de refactorizar.
 - Cómo aplicar SOLID sin convertir el proyecto en una colección innecesaria de interfaces y clases.
 
-## Ruta de aprendizaje
-
-La ruta completa está en [docs/README.md](docs/README.md). Para la sesión actual:
-
-1. [Open/Closed Principle](docs/ocp/README.md)
-2. [Liskov Substitution Principle](docs/lsp/README.md)
-
-Cada módulo presenta primero un caso breve, continúa con una actividad de diseño y termina con cinco prácticas vinculadas al código inicial.
-
 ## Requisitos
 
 - Java 17 o superior.
